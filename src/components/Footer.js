@@ -17,7 +17,7 @@ function Footer() {
           <ListItem item="Leonardo Jung" />
           <ListItem item="Luiz Gregini" />
           <ListItem item="Matheus Silva" />
-          <ListItem item="Pedro Diedrich" />
+          <ListItem item="Pedro Diedric" />
           <ListItem item="Rafael Lamberty" />
         </ul>
       </div>
