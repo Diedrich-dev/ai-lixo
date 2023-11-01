@@ -16,19 +16,15 @@ function Map() {
   
   const locations = [
     {
-      lat: -24.96152041230841,
-      lng: -53.50744425857699,
-      label: "Univel",
+      lat: -24.9616897,
+      lng: -53.5081189,
+      label: "Lixeira de Eletrônicos",
+      describe: "Bloco A, ao lado da máquina de café"
     },
-    {
-      lat: -24.962599185584367,
-      lng: -53.50981656391458,
-      label: "Centro veterinario",
-    }
   ]
 
   const [selectedMarker, setSelectedMarker] = useState(null);
-
+  const image = "https://i.imgur.com/CHfXffr.jpg"
   return (
     <div className="h-full w-full">
       {isLoaded && (
@@ -64,15 +60,19 @@ function Map() {
               }}
               onCloseClick={() => setSelectedMarker(null)}
             >
-              <div>
-                <h3>{selectedMarker.label}</h3>
-                <p>Descrição</p>
+              <div className="flex flex-col items-center">
+                <div className="flex flex-col gap-y-1 items-center">
+                  <h3 className="font-bold">{selectedMarker.label}</h3>
+                  <p>{selectedMarker.describe}</p>  
+                </div>
+                <img className="h-24 w-24" src={image} alt="Localização da lixeira"/>
                 <a
                   href={`https://www.google.com/maps/dir/${selectedMarker.lat},${selectedMarker.lng}`}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-2xl text-red-600 font-bold underline hover:text-blue-400"
                 >
-                  Ir até o centro
+                  Ir até a lixeira
                 </a>
               </div>
             </InfoWindow>
