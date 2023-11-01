@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ai-lixo/static/css/main.6492d129.css",
-    "main.js": "/ai-lixo/static/js/main.92b60068.js",
+    "main.css": "/ai-lixo/static/css/main.e123ec1f.css",
+    "main.js": "/ai-lixo/static/js/main.2d4a33a2.js",
     "index.html": "/ai-lixo/index.html",
-    "main.6492d129.css.map": "/ai-lixo/static/css/main.6492d129.css.map",
-    "main.92b60068.js.map": "/ai-lixo/static/js/main.92b60068.js.map"
+    "main.e123ec1f.css.map": "/ai-lixo/static/css/main.e123ec1f.css.map",
+    "main.2d4a33a2.js.map": "/ai-lixo/static/js/main.2d4a33a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.6492d129.css",
-    "static/js/main.92b60068.js"
+    "static/css/main.e123ec1f.css",
+    "static/js/main.2d4a33a2.js"
   ]
 }
