@@ -25,7 +25,7 @@ function Map() {
 
   const [selectedMarker, setSelectedMarker] = useState(null);
   const image = "https://i.imgur.com/CHfXffr.jpg";
-  const icon = "https://i.imgur.com/MCsipDh.png";
+  const icon = "https://i.imgur.com/JI6JcKE.png";
   return (
     <div className="h-full w-full">
       {isLoaded && (
