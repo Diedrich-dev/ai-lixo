@@ -24,7 +24,8 @@ function Map() {
   ]
 
   const [selectedMarker, setSelectedMarker] = useState(null);
-  const image = "https://i.imgur.com/CHfXffr.jpg"
+  const image = "https://i.imgur.com/CHfXffr.jpg";
+  const icon = "https://i.imgur.com/7d97Xe2.png";
   return (
     <div className="h-full w-full">
       {isLoaded && (
@@ -38,6 +39,7 @@ function Map() {
         >
           {locations.map((location, index) => (
             <Marker
+              icon={icon}
               key={index}
               position={{
                 lat: parseFloat(location.lat),
