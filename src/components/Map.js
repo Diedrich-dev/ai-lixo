@@ -49,7 +49,9 @@ function Map() {
               options={{
                 label: {
                   text: location.label,
-                  className: "mt-16 font-bold",
+                  className: "mt-16 font-bold underline",
+                  color: "blue",
+                  fontSize: "20px",
                 },
               }}
               onClick={() => setSelectedMarker(location)}
